@@ -19,10 +19,6 @@ import android.widget.TextView;
  */
 public class ThirdFragment extends Fragment {
 
-    View thirdView;
-    ExpandableListView list;
-    private String[] presentors;
-    private String[][] presentorsInfo;
     private FragmentTabHost mTabHost;
 
     public ThirdFragment() {
