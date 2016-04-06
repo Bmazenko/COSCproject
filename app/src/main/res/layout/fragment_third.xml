@@ -1,15 +1,8 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.bmaz.coscproject.ThirdFragment">
+    android:orientation="vertical"
+    android:id="@+id/parentView">
 
-    <ExpandableListView
-        android:id="@+id/expListView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="0.14"
-        android:layout_marginTop="60dp">
-    </ExpandableListView>
 
-</RelativeLayout>
+</LinearLayout>
