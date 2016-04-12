@@ -6,49 +6,68 @@
 
     <string name="action_settings">Settings</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    
-    <!-- PLACEHOLDER -->
-    <string-array name="parent">
-        <item>Hotels</item>
-        <item>Restaurants</item>
-        <item>Local Attractions</item>
+    <!-- For Accommodations -->
+    <string-array name="Hotel">
+        <item>Hotel 1</item>
+        <item>Hotel 2</item>
+        <item>Hotel 3</item>
     </string-array>
-    <string-array name="child_hotel">
-        <item>Hotel A</item>
-        <item>Hotel B</item>
-        <item>Hotel C</item>
+    <string name="hotelOne">Information about Hotel number one we could include a link to our map maybe. blah blha bljah information</string>
+    <string name="hotelTwo">2nd hotel ihhhhhnformation ;alkdfj ;asldkfj asldkjf ;elkjf a;lkdjf ;laklsdj gfk;lasdjgf as;dklgj a;lsekjg ;adsj gf;alsdjf;alskekjf g;alskdjf ;aslkdjf as;fj asfjas gj asli;gj as;ljg talk information</string>
+    <string name="hotelThree">third hotel F ihhhhhhnformation.</string>
+
+    <string-array name="Restaurant">
+        <item>Restaurant 1</item>
+        <item>Restaurant 2</item>
+        <item>Restaurant 3</item>
     </string-array>
-    <string-array name="child_rest">
-        <item name="americanr">American</item>
-        <item name="chineser">Chinese</item>
-        <item name="thair">Thai</item>
-        <item name="indianr">Indian</item>
+    <string name="restOne">Firhhst restaruant a;lsd</string>
+    <string name="restTwo">2nd rest ihhhhhnformation ;alkdfj ;asldkfj asldkjf ;elkjf a;lkdjf ;laklsdj gfk;lasdjgf as;dklgj a;lsekjg ;adsj gf;alsdjf;alskekjf g;alskdjf ;aslkdjf as;fj asfjas gj asli;gj as;ljg talk information</string>
+    <string name="restThree">third  rest F ihhhhhhnformation.</string>
+
+    <string-array name="LocalAttractions">
+        <item>Attraction 1</item>
+        <item>Attraction 2</item>
+        <item>Attraction 3</item>
     </string-array>
-    <string-array name="child_attract">
-        <item>Attraction A</item>
-        <item>Attraction B</item>
-        <item>Attraction C</item>
+    <string name="attractOne">Firhhst facuddddlty</string>
+    <string name="attractTwo">2nd faculty ihhhhhnformation ;alkdfddddsaasdfasdfasdfj ;asldkfj asldkjf ;elkjf a;lkdjf ;laklsdj gfk;lasdjgf as;dklgj a;lsekjg ;adsj gf;alsdjf;alskekjf g;alskdjf ;aslkdjf as;fj asfjas gj asli;gj as;ljg talk information</string>
+    <string name="attractThree">Fourth F ihhhhhhnformation.</string>
+
+
+    <!--  For Presentations-->
+    <string-array name="studentPresentations">
+        <item>Student 1</item>
+        <item>Student 2</item>
+        <item>Student 3</item>
+        <item>Student 4</item>
     </string-array>
-    <string-array name="american">
-        <item>American Restaurant 1</item>
-        <item>American Restaurant 2</item>
-        <item>American Restaurant 3</item>
+    <string name="studentOne">This:/n is where infor for ONE will go</string>
+    <string name="studentTwo">2nd studedt talk information</string>
+    <string name="studentThree">Third information.</string>
+    <string name="studentFour">Fourth information.</string>
+
+    <string-array name="keynotePresentations">
+        <item>Keynote 1</item>
+        <item>Keynote 2</item>
+        <item>Keynote 3</item>
+        <item>Keynote 4</item>
     </string-array>
-    <string-array name="chinese">
-        <item>Chinese Restaurant 1</item>
-        <item>Chinese Restaurant 2</item>
-        <item>Chinese Restaurant 3</item>
+    <string name="keynoteOne">First keynote</string>
+    <string name="keynoteTwo">2nd KKKEEEY talk information</string>
+    <string name="keynoteThree">Third K information.</string>
+    <string name="keynoteFour">Fourth K information.</string>
+
+    <string-array name="facultyPresentations">
+        <item>Faculty 1</item>
+        <item>Faculty 2</item>
+        <item>Faculty 3</item>
+        <item>Faculty 4</item>
     </string-array>
-    <string-array name="thai">
-        <item>Thai Restaurant 1</item>
-        <item>Thai Restaurant 2</item>
-        <item>Thai Restaurant 3</item>
-    </string-array>
-    <string-array name="indian">
-        <item>Indian Restaurant 1</item>
-        <item>Indian Restaurant 2</item>
-        <item>Indian Restaurant 3</item>
-    </string-array>
+    <string name="facultyOne">First faculty</string>
+    <string name="facultyTwo">2nd faculty information ;alkdfj ;asldkfj asldkjf ;elkjf a;lkdjf ;laklsdj gfk;lasdjgf as;dklgj a;lsekjg ;adsj gf;alsdjf;alskekjf g;alskdjf ;aslkdjf as;fj asfjas gj asli;gj as;ljg talk information</string>
+    <string name="facultyThree">Third F information.</string>
+    <string name="facultyFour">Fourth F information.</string>
+
+
 </resources>

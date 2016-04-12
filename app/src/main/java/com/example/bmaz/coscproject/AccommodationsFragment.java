@@ -7,22 +7,18 @@ import android.support.v4.app.FragmentTabHost;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TabWidget;
-import android.widget.TextView;
-
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ThirdFragment extends Fragment {
-
+public class AccommodationsFragment extends Fragment {
     private FragmentTabHost mTabHost;
 
-    public ThirdFragment() {
 
+    public AccommodationsFragment() {
         // Required empty public constructor
     }
 
@@ -58,10 +54,10 @@ public class ThirdFragment extends Fragment {
 
         // add the tabs
         mTabHost.getTabWidget().setShowDividers(TabWidget.SHOW_DIVIDER_MIDDLE);
-        mTabHost.getTabWidget().setDividerDrawable( R.drawable.divider_vertical_dark );
-        mTabHost.addTab(mTabHost.newTabSpec("students").setIndicator("Student Speakers"), StudentPresentersTab.class, null);
-        mTabHost.addTab(mTabHost.newTabSpec("keynotes").setIndicator("Keynote Speakers"), KeyNotePresentersTab.class, null);
-        mTabHost.addTab(mTabHost.newTabSpec("faculty").setIndicator("Faculty Speakers"), FacultyPresentersTab.class, null);
+        mTabHost.getTabWidget().setDividerDrawable(R.drawable.divider_vertical_dark);
+        mTabHost.addTab(mTabHost.newTabSpec("hotels").setIndicator("Hotels"), HotelTab.class, null);
+        mTabHost.addTab(mTabHost.newTabSpec("restaurants").setIndicator("Restaurants"), RestaurantsTab.class, null);
+        mTabHost.addTab(mTabHost.newTabSpec("attractions").setIndicator("Local Attractions"), LocalAttractionsTab.class, null);
 
         for(int i=0;i<mTabHost.getTabWidget().getChildCount();i++)
         {
