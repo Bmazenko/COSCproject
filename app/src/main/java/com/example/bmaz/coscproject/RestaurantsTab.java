@@ -1,15 +1,12 @@
 package com.example.bmaz.coscproject;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class RestaurantsTab extends ParentFragmentLayout {
-
 
     public RestaurantsTab() {
         // Required empty public constructor

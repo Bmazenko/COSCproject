@@ -26,5 +26,9 @@
             android:id="@+id/nav_send"
 
             android:title="Exhibits" />
+        <item
+            android:id="@+id/nav_map"
+
+            android:title="Map" />
     </group>
 </menu>
