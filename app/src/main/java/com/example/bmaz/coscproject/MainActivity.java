@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             //Set the fragment initially
             MainFragment fragment = new MainFragment();
-            FragmentTransaction fragmentTransaction =
+            android.support.v4.app.FragmentTransaction FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
             //Set the fragment initially
             FirstFragment fragment = new FirstFragment();
-            FragmentTransaction fragmentTransaction =
+            android.support.v4.app.FragmentTransaction  fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
@@ -128,35 +128,35 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_slideshow) {
             SecondFragment fragment = new SecondFragment();
-            FragmentTransaction fragmentTransaction =
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_manage) {
             ThirdFragment fragment = new ThirdFragment();
-            FragmentTransaction fragmentTransaction =
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_share) {
             FourthFragment fragment = new FourthFragment();
-            FragmentTransaction fragmentTransaction =
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_send) {
             FifthFragment fragment = new FifthFragment();
-            FragmentTransaction fragmentTransaction =
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_add) {
             Registration fragment = new Registration();
-            FragmentTransaction fragmentTransaction =
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
