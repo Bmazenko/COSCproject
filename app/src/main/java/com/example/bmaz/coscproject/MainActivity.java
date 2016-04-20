@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity
 
         //Set the fragment initially
         MainFragment fragment = new MainFragment();
-        FragmentTransaction fragmentTransaction =
+        android.support.v4.app.FragmentTransaction fragmentTransaction =
                 getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.fragment_container, fragment);
         fragmentTransaction.commit();
