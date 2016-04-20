@@ -8,8 +8,12 @@
         android:id="@+id/expListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.14"
-        android:layout_marginTop="80dp">
+        android:layout_marginTop="55dp"
+        android:background="#f8f4f5"
+        android:divider="#050505"
+        android:childDivider="#090909"
+        android:footerDividersEnabled="false"
+        android:dividerHeight="1dp">
     </ExpandableListView>
 
 
