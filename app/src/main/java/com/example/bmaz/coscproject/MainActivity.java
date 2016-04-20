@@ -2,7 +2,6 @@ package com.example.bmaz.coscproject;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -118,7 +117,7 @@ public class MainActivity extends AppCompatActivity
 
 
         } else if (id == R.id.nav_slideshow) {
-            SecondFragment fragment = new SecondFragment();
+            ScheduleOfEventsFragment fragment = new ScheduleOfEventsFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);

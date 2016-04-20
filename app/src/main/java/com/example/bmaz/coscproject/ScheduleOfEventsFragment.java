@@ -1,24 +1,24 @@
 package com.example.bmaz.coscproject;
 
-import android.graphics.Color;
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTabHost;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-import android.widget.TabWidget;
+        import android.graphics.Color;
+        import android.os.Bundle;
+        import android.support.v4.app.Fragment;
+        import android.support.v4.app.FragmentTabHost;
+        import android.view.LayoutInflater;
+        import android.view.View;
+        import android.view.ViewGroup;
+        import android.widget.FrameLayout;
+        import android.widget.LinearLayout;
+        import android.widget.TabWidget;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FifthFragment extends Fragment {
+public class ScheduleOfEventsFragment extends Fragment {
 
     private FragmentTabHost mTabHost;
 
-    public FifthFragment() {
+    public ScheduleOfEventsFragment() {
 
         // Required empty public constructor
     }
@@ -56,8 +56,8 @@ public class FifthFragment extends Fragment {
         // add the tabs
         mTabHost.getTabWidget().setShowDividers(TabWidget.SHOW_DIVIDER_MIDDLE);
         mTabHost.getTabWidget().setDividerDrawable(R.drawable.divider_vertical_dark);
-        mTabHost.addTab(mTabHost.newTabSpec("BE").setIndicator("Book Exhibits"), BookTab.class, null);
-        mTabHost.addTab(mTabHost.newTabSpec("GSE").setIndicator("Graduate School Exhibits"), GraduateTab.class, null);
+        mTabHost.addTab(mTabHost.newTabSpec("friday").setIndicator("Friday"), ScheduleFridayTab.class, null);
+        mTabHost.addTab(mTabHost.newTabSpec("saturday").setIndicator("Saturday"), ScheduleSaturdayTab.class, null);
 
 
         for(int i=0;i<mTabHost.getTabWidget().getChildCount();i++)

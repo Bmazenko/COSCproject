@@ -68,10 +68,46 @@
     <string name="facultyTwo">2nd faculty information ;alkdfj ;asldkfj asldkjf ;elkjf a;lkdjf ;laklsdj gfk;lasdjgf as;dklgj a;lsekjg ;adsj gf;alsdjf;alskekjf g;alskdjf ;aslkdjf as;fj asfjas gj asli;gj as;ljg talk information</string>
     <string name="facultyThree">Third F information.</string>
     <string name="facultyFour">Fourth F information.</string>
-    <string name="title_activity_maps">Map</string>
+
+    <!--For schedule of events-->
+    <string-array name="Friday">
+        <item>Fri Event 1</item>
+        <item>Fri Event 2</item>
+        <item>Fri Event 3</item>
+    </string-array>
+    <string name="eventOne">Description of event number one</string>
+    <string name="eventTwo">Description of event number two</string>
+    <string name="eventThree">Stuff about the third event on Friday</string>
+
+    <string-array name="Saturday">
+        <item>Sat Event 1</item>
+        <item>Sat Event 2</item>
+        <item>Sat Event 3</item>
+    </string-array>
+    <string name="satOne">Description of SATURDAYevent number one</string>
+    <string name="satTwo">Description of event numbSATURDAYer two</string>
+    <string name="satThree">Stuff SATURDAY the third event on Friday</string>
+
+    <!-- For Exhibits-->
+    <string-array name="BookExhibits">
+        <item>Book Exhibit  1</item>
+        <item>BE 2</item>
+        <item>BE Event 3</item>
+    </string-array>
+    <string name="bookOne">Put whatever you want in the description, Blah blah blah suff</string>
+    <string name="bookTwo">Descridddddddddddddption of event numbSATURDAYer two</string>
+    <string name="bookThree">workds alsi e;lkf os aoisej flekt on Friday</string>
+
+    <string-array name="GraduateExhibits">
+        <item>Grad Exhibit  1</item>
+        <item>Grad 2</item>
+        <item>Grad Event 3</item>
+    </string-array>
+    <string name="gradOne">Put whatever you want in the description, Blah blah blah suff</string>
+    <string name="gradTwo">Descridddddddddddddption of event numbSATURDAYer two</string>
+    <string name="gradThree">workds alsi e;lkf os aoisej flekt on Friday</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
 
 </resources>
