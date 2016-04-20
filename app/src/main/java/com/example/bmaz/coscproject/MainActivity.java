@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             //Set the fragment initially
             MainFragment fragment = new MainFragment();
-            android.support.v4.app.FragmentTransaction FragmentTransaction fragmentTransaction =
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
             //Set the fragment initially
             FirstFragment fragment = new FirstFragment();
-            android.support.v4.app.FragmentTransaction  fragmentTransaction =
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
