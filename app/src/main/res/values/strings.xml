@@ -6,6 +6,16 @@
 
     <string name="action_settings">Settings</string>
 
+    <!-- Daniel Edition 1 -->
+    <string name="reg_url">click here</string>
+    <string name="actual_url">http://www.google.com</string>
+    <string name="reg_button_title">Register at this website:</string>
+    <string name="physical_reg_string">Registration at Event</string>
+    <string name="location_reg_string">Register at: Location</string>
+    <string name="or">Or</string>
+    <string name="title">Hosted By:</string>
+    <string name="welcome_string">This Math conference is brought to you by:</string>
+
     <!-- For Accommodations -->
     <string-array name="Hotel">
         <item>Hotel 1</item>
