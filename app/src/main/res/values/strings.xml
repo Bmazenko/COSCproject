@@ -47,56 +47,120 @@
 
     <!--  For Presentations-->
     <string-array name="studentPresentations">
-        <item>Student 1</item>
-        <item>Student 2</item>
-        <item>Student 3</item>
-        <item>Student 4</item>
+        <item>Jesse Bailey (Kutztown University of Pennsylvania)</item>
+        <item>Robert Brotzman-Smith (Kutztown University of Pennsylvania)</item>
+        <item>Aydin Gerek (Lehigh University)</item>
+        <item>Thyme Greenfield (Bloomsburg University of Pennsylvania)</item>
     </string-array>
-    <string name="studentOne">This:/n is where infor for ONE will go</string>
+     <string name="studentOne">
+        Topic: \"Irrationality of Square Roots of Natural Numbers\"\n\n
+        Abstract:\n
+        \t\t\tMy presentation summarizes work that I did for my senior seminar presentation under Dr. Walz. This presentation will show how I went about proving that the square root of all natural numbers, except perfect squares, are irrational. I would like to give thanks to Dr. Mcloughlin, Dr. Landquist, and Dr. Walz for their help in this presentation.
+    </string>
     <string name="studentTwo">2nd studedt talk information</string>
     <string name="studentThree">Third information.</string>
     <string name="studentFour">Fourth information.</string>
 
     <string-array name="keynotePresentations">
-        <item>Keynote 1</item>
-        <item>Keynote 2</item>
-        <item>Keynote 3</item>
-        <item>Keynote 4</item>
+        <item>Neil J.A. Sloane (OEIS Foundation)</item>
+        <item>Tanya Gomez (Pearson)</item>
     </string-array>
-    <string name="keynoteOne">First keynote</string>
+     <string name="keynoteOne">
+        Topic: \"My Favorit Integer Sequences, or, Confessions of a Sequence Addict\"\n\n
+        Abstract:\n
+        \t\t\tThe On-Line Encyclopedia of Integer Sequences (or OEIS, oeis.org) is a free web site that contains information about a quarter of a million sequences, and is often called one of the most useful mathematical sites on the Web. I will discuss some of my favorites, including the van Eck, Zizka, Fredkin, Quet, Kelly, Yellowstone, etc. sequences. There will be music, movies, and a number of unsolved problems. Warning: some of these may prevent you sleeping at night.
+    </string>
     <string name="keynoteTwo">2nd KKKEEEY talk information</string>
     <string name="keynoteThree">Third K information.</string>
     <string name="keynoteFour">Fourth K information.</string>
 
     <string-array name="facultyPresentations">
-        <item>Faculty 1</item>
-        <item>Faculty 2</item>
-        <item>Faculty 3</item>
-        <item>Faculty 4</item>
+        <item>Jenna Van Sickle (Fontbonne University)</item>
+        <item>Paul Ache (Kutztown University of Pennsylvania)</item>
+        <item>Chirstopher Michael Amici (Kutztown University of Pennsylvania)</item>
+        <item>Stephen Andrilli (La Salle University)</item>
     </string-array>
-    <string name="facultyOne">First faculty</string>
+    <string name="facultyOne">
+        Topic: \"How to Engage and INspire Students through Student-Led Learning\"\n\n
+        Abstract:\n
+        \t\t\tAn impressive collection of research suggests that student-led learning (ﬂipped learning or IBL) improves the acquisition of student outcomes. Still, case studies demonstrate that certain instructors have an easier time than others establishing class expectations that best facilitate student learning. In this talk, I will include research from a variety of disciplines that has helped me improve the culture in my classes. I will also make the case that it is worthwhile to incorporate student-led learning, even if only in small ways, into all courses.
+    </string>
     <string name="facultyTwo">2nd faculty information ;alkdfj ;asldkfj asldkjf ;elkjf a;lkdjf ;laklsdj gfk;lasdjgf as;dklgj a;lsekjg ;adsj gf;alsdjf;alskekjf g;alskdjf ;aslkdjf as;fj asfjas gj asli;gj as;ljg talk information</string>
     <string name="facultyThree">Third F information.</string>
     <string name="facultyFour">Fourth F information.</string>
 
     <!--For schedule of events-->
     <string-array name="Friday">
-        <item>Fri Event 1</item>
-        <item>Fri Event 2</item>
-        <item>Fri Event 3</item>
+        <item>4:00PM - 4:40PM</item>
+        <item>4:45PM - 5:05PM</item>
+        <item>5:10PM - 5:50PM</item>
+        <item>5:50PM - 6:15PM</item>
+        <item>6:15PM - 7:15PM</item>
+        <item>7:30PM - 9:30PM</item>
     </string-array>
-    <string name="eventOne">Description of event number one</string>
+    <string name="eventOne">
+        Topic: \"Ask Marilyn in the Mathematics Classroom\"\n\n
+        \t\t\tPresenter: Francis Vasko\n
+        \t\t\tSponsor: Kutztown University\n
+        \t\t\tLocation: Boehm 260\n\n\n
+        Topic: \"Improving Outcomes through Technology in the Classroom\"\n\n
+        \t\t\tPresenter: Yanya Gomez\n
+        \t\t\tSponsor: Pearson\n
+        \t\t\tLocation: Boehm 261\n
+    </string>
     <string name="eventTwo">Description of event number two</string>
     <string name="eventThree">Stuff about the third event on Friday</string>
+    <string name="eventFour">Testing</string>
+    <string name="eventFive">
+        Testing123\n
+        New Line?
+    </string>
+    <string name="eventSix"><b>Bold</b></string>
 
     <string-array name="Saturday">
-        <item>Sat Event 1</item>
-        <item>Sat Event 2</item>
-        <item>Sat Event 3</item>
+        <item>9:00AM - 9:20AM</item>
+        <item>9:25AM - 9:45AM</item>
+        <item>9:50AM - 10:10AM</item>
+        <item>10:15AM - 10:35AM</item>
+        <item>10:35AM - 11:00AM</item>
+        <item>11:00AM - 11:40AM</item>
+        <item>11:45AM - 12:05PM</item>
+        <item>12:10PM - 12:30PM</item>
+        <item>12:35PM - 1:45PM</item>
+        <item>2:00PM - 3:00PM</item>
+        <item>3:15PM - 3:35PM</item>
+        <item>3:40PM - 4:00PM</item>
+        <item>4:05PM - 4:25PM</item>
+        <item>4:30PM</item>
     </string-array>
-    <string name="satOne">Description of SATURDAYevent number one</string>
+    
+    <string name="satOne">
+        Topic: \"Hamiltonicity and Pancyclicity of Claw-free Graphs\"\n\n
+        \t\t\tPresenter: Ju Zhou\n
+        \t\t\tSponsor: Kutztown University\n
+        \t\t\tLocation: Boehm 260\n\n\n
+        Topic: \"S-COAM-Interdisciplinary Scholarship Program for Applied Mathematics\"\n\n
+        \t\t\tPresenter: Yu-Ju Kuo\n
+        \t\t\tSponsor: Indiana University of Pennsylvania\n
+        \t\t\tLocation: Boehm 261\n\n\n
+        Topic: \"Irrationality of Square Roots of Natural Numbers\"\n\n
+        \t\t\tPresenter: Jesse Bailey\n
+        \t\t\tSponsor: Kutztown University\n
+        \t\t\tLocation: Boehm 262\n
+    </string>
     <string name="satTwo">Description of event numbSATURDAYer two</string>
     <string name="satThree">Stuff SATURDAY the third event on Friday</string>
+    <string name="satFour">Description of SATURDAYevent number one</string>
+    <string name="satFive">Description of event numbSATURDAYer two</string>
+    <string name="satSix">Stuff SATURDAY the third event on Friday</string>
+    <string name="satSeven">Description of SATURDAYevent number one</string>
+    <string name="satEight">Description of event numbSATURDAYer two</string>
+    <string name="satNine">Stuff SATURDAY the third event on Friday</string>
+    <string name="satTen">Description of SATURDAYevent number one</string>
+    <string name="satEleven">Description of event numbSATURDAYer two</string>
+    <string name="satTwelve">Stuff SATURDAY the third event on Friday</string>
+    <string name="satThirteen">Description of SATURDAYevent number one</string>
+    <string name="satFourteen">Description of event numbSATURDAYer two</string>
 
     <!-- For Exhibits-->
     <string-array name="BookExhibits">
