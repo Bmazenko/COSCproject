@@ -21,7 +21,10 @@ public class ScheduleFridayTab extends ParentFragmentLayout {
         presentorsInfo = new String[][]{
                 {getResources().getString(R.string.eventOne)},
                 {getResources().getString(R.string.eventTwo)},
-                {getResources().getString(R.string.eventThree)}
+                {getResources().getString(R.string.eventThree)},
+                {getResources().getString(R.string.eventFour)},
+                {getResources().getString(R.string.eventFive)},
+                {getResources().getString(R.string.eventSix)}
         };
     }
 
